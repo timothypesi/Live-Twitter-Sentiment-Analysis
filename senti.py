@@ -4,10 +4,10 @@ import pandas as pd
 from transformers import pipeline
 
 # Twitter API credentials
-consumer_key = 'fyAObqMzkNd7J75lB6qjdW9yK'
-consumer_secret = 'kOTwdDyjQz9M9YRFUndwn22BjpfZfGIWB2CONIaVIfzsqPLery'
-access_token = '988639306125332481-vs7w9piqyfv8IzBlOkPtVUkxdcMJkHb'
-access_token_secret = 'j5CGFRL78yJyffXhZmjZVQ2f95dKmQLAHCDNNOxI4KqzR'
+consumer_key = '4fyAObqMzkNd7J75lB6qjdW9y6yK'
+consumer_secret = 'kOTwdDyjQz9M9YRFUndwn22rtBjpfZfGIWB2CONIaVIfzsqPLery'
+access_token = '988639306125332481-vs7w9piqyyyfv8IzBlOkPtVUkxdcMJkHb'
+access_token_secret = 'j5CGFRL787JyffXhpmjZVQ2of95dKmQLAHCDNNOxI4KqzR'
 
 # Authenticate to Twitter API
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
